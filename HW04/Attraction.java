@@ -5,11 +5,11 @@
  * @version 1.0
  */
 public class Attraction implements Admittable, Comparable<Attraction> {
-    protected final String name;
-    protected long sumRatings;
-    protected int numRatings;
-    protected final double admissionFee;
-    protected Group[] visitors;
+    private final String name;
+    private long sumRatings;
+    private int numRatings;
+    private final double admissionFee;
+    private Group[] visitors;
 
     /**
      * Constructs an attraction with the provided name and admission fee.

@@ -5,7 +5,7 @@
  * @version 1.0
  */
 public class RollerCoaster extends Attraction {
-    private int maxCapacity;
+    private final int maxCapacity;
     private int occupancy;
 
     /**
